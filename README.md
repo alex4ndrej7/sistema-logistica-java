@@ -1,20 +1,18 @@
-# sistema-logistica-java
-Sistema para controle de estoque e expedição desenvolvido em Java para aplicar conceitos de POO.
-# 📦 Sistema de Logística e Expedição - Java
+# 📦 Sistema de Gestão de Expedição - Logística Pro v2.0
 
-Este projeto é uma aplicação de console desenvolvida para gerenciar fluxos básicos de entrada e saída de mercadorias. Ele une minha experiência prática em logística com conceitos de **Programação Orientada a Objetos (POO)**.
+Este projeto é uma aplicação de backend desenvolvida em **Java** que simula o fluxo real de uma operação logística. Ele une a minha experiência prática na **Lojas Renner** e no **SENAI** com conceitos avançados de **Programação Orientada a Objetos (POO)**.
 
 ### 🚀 Funcionalidades
-- Cadastro de produtos com nome, quantidade e preço unitário.
-- Cálculo automático do valor total da carga em estoque.
-- Geração de relatório de expedição formatado.
+- **Gestão Dinâmica:** Registo de múltiplos produtos durante a execução.
+- **Lógica de Negócio:** Cálculo automático de valores totais e relatórios de inventário.
+- **Estrutura Profissional:** Organização de código dividida por responsabilidades (Classes e Listas).
 
-### 🛠 Tecnologias
+### 🛠 Tecnologias Utilizadas
 - **Linguagem:** Java (JDK 17+)
-- **Paradigma:** Orientação a Objetos
-- **Entrada de Dados:** Scanner API
+- **Coleções:** Uso de `ArrayList` para gestão de dados em memória.
+- **Interação:** Interface via Console (Scanner API).
 
-### 📂 Como executar
-1. Clone o repositório: `git clone https://github.com/alex4ndrej7/sistema-logistica-java.git`
-2. Compile o arquivo: `javac Main.java`
-3. Execute: `java Main`
+### 📂 Como testar
+1. Clona o repositório.
+2. Executa o ficheiro `Main.java`.
+3. Utiliza o menu interativo para registar mercadorias e gerar relatórios.
